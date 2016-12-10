@@ -121,8 +121,3 @@ class listener_parser():
                         else:
                             self.badlines[line] = 1
 
-
-lp = listener_parser('/tmp/listener.small')
-for x in lp.getrecords():
-    print x
-
